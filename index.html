@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawahar - protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0325b907a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpeg" class="logo" alt="">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#mywork">My Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!-- small screen icon -->
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB Developer & </p>
+                <p>Embedded Engineer</p>
+                <h1>Hi, I'm <span>Jawahar</span> From India</h1><br>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- going to create about section da maple -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-08-04 at 11.33.23 AM.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me !</h1>
+                    <br>
+                    <p>Hello! My name is Jawahar, and I am from the vibrant town of Udumalaipettai. I am currently
+                        pursuing my Master of Computer Applications (MCA) at Rathinam Technical Campus, where I am
+                        honing my skills and expanding my knowledge in the field of technology. <br>
+                        <br>Combining my skills in web development and embedded engineering, I am driven to build
+                        solutions that are not only functional but also impactful. I am always eager to learn new
+                        technologies and take on challenging projects that push the boundaries of what is possible.
+                    </p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DEVELOPER</span><br>Builting web Interfaces</li>
+                            <li><span>EMBEDDED ENGINEER</span><br>Builting Embedded Application</li>
+                            <li><span>IOT</span><br>Working on IOT's </li>
+
+                        </ul>
+                    </div>
+                    <!-- projects -->
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Website Development</span><br>created a web page in UG final
+                                Project for Mrr garments-coimbatore</li>
+                            <li><span>Wine Quality prediction</span><br>developed a application for wine quality
+                                prediction using Machine learning</li>
+                            <li><span>Protfolio</span><br>developed a protfolio website</li>
+                        </ul>
+                    </div>
+                    <!-- education -->
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025</span><br>MCA at Rathinam Technical Campus - coimbatore</li>
+                            <li><span>2023</span><br>BSC CS at Sri Ramakrishna College of Arts and Science -
+                                coimbatore</li>
+                            <li><span>2020</span><br>Higher Secondary at RGM - pethappampatti</li>
+                        </ul>
+                    </div>
+                    <!-- end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- about page ends -->
+    <!-- service pade starts -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development</h2>
+                    <p>will make websites for your need's</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linux"></i>
+                    <h2>Embedded development</h2>
+                    <p>we will build for your requirment's </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Programming Developer</h2>
+                    <p>developing codes</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- service page ends -->
+    <!-- my work starts -->
+    <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="WhatsApp Image 2024-08-04 at 9.22.06 PM.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Websites</h3>
+                        <p>This web pages will be helpful in growing your bussiness</p>
+                        <!--                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="WhatsApp Image 2024-08-04 at 9.31.43 PM.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Machine Learning</h3>
+                        <p>Wine Quality prediction using machine learning</p>
+                        <!--                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ -->
+                    </div>
+                </div>
+            </div>
+        </div>
+                <a href="#" class="btn">see more</a>
+ 
+    </div>
+    </div> <br><br>
+    <!-- my works ends -->
+    <!-- contact starts -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <!-- email -->
+                    <p><i class="fa-regular fa-envelope"></i>
+                        <a href="mailto:jawaharr16@gmail.com">jawaharr16@gmail.com</a>
+                    </p>
+                    <!-- phone -->
+                    <p> <i class="fa-solid fa-phone-volume"></i> <a href="tel:+91 9025676907">9025676907</a>
+                    </p>
+                    <!-- social -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jawahar-r-371911249/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/___Jawahar___"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/jawaharr20"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="hello.txt" download class="btn btn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <!-- form -->
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="enter your name" required>
+                        <input type="email" name="email" placeholder="enter your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; Jawahar &emsp;<i class="fa-regular fa-thumbs-up"></i></p>
+        </div>
+    </div>
+
+
+
+    <!-- java script add pana poran -->
+    <script>
+        /* about page starts */
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            /* before this content used to remove other col */
+            /* the below condition is used to active that we can choosed */
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+        /* about page code ends */
+
+    </script>
+    <!-- script for sidemenu -->
+    <script>
+        var side = document.getElementById("sidemenu");
+        function openmenu() {
+            side.style.right = "0"
+        }
+        function closemenu() {
+            side.style.right = "-200px"
+        }
+    </script>
+
+    <!-- script of sheets -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwYk-3SBgL-yVG4Av8vf_F2SBQZyBPg5Vbf_1yseENj3VTlquHShYIaAT73lBpBUYTw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },7000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
